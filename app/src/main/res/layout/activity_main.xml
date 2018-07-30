@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12sp"
+    android:layout_height="match_parent"
+    tools:context=".send.MainActivity">
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_marginTop="50sp"
+        android:focusable="true"
+        android:id="@+id/img"
+        android:src="@drawable/phone"
+        android:padding="20sp"
+        android:layout_gravity="center"
+        android:layout_height="200sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/txtName"
+        android:textSize="14sp"
+        android:padding="14sp"
+        android:hint="Enter your Name :"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/txtFamily"
+        android:textSize="14sp"
+        android:padding="14sp"
+        android:hint="Enter your Family :"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/txtPhone"
+        android:textSize="14sp"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:padding="14sp"
+        android:digits="0123456789"
+        android:hint="Enter your Phone :"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnReg"
+        android:padding="20sp"
+        android:layout_marginTop="15sp"
+        android:text="Register"
+        android:textSize="14sp"
+        android:shadowColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/test"
+        android:padding="12sp"
+        android:text="Search"
+        android:layout_height="wrap_content" />
+</LinearLayout>
