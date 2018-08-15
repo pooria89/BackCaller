@@ -65,7 +65,6 @@ public class SearchDate extends AppCompatActivity {
                             Toast.makeText(SearchDate.this, "Name: "+body.get(i).getName().toString() + "  "+
                                     "Family: "+ body.get(i).getFamily().toString()+"  "+"Phone: "+body.get(i).getPhone().toString(), Toast.LENGTH_SHORT).show();
 
-
                         }
                     }
 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5ebd1"
+    android:orientation="vertical"
+    android:padding="10sp"
+    tools:context=".main.InsertContactsActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:id="@+id/img_reg"
+        android:padding="30sp"
+        android:src="@drawable/insert"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edt_name"
+        android:textStyle="bold"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:layout_marginTop="20sp"
+        android:hint=" Name : "
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edt_phone"
+        android:textStyle="bold"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:hint=" Phone : "
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_insert"
+        android:text="insert"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+</LinearLayout>

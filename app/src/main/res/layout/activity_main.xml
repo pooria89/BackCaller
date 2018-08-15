@@ -58,6 +58,6 @@
         android:layout_width="match_parent"
         android:id="@+id/test"
         android:padding="12sp"
-        android:text="Search"
+        android:text="Go"
         android:layout_height="wrap_content" />
 </LinearLayout>

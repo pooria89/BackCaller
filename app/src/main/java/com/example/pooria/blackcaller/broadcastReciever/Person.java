@@ -1,11 +1,11 @@
 
-package com.example.pooria.blackcaller.pojo;
+package com.example.pooria.blackcaller.broadcastReciever;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Inform {
+public class Person {
 
     @SerializedName("count")
     @Expose
